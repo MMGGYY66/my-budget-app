@@ -1,2 +1,5 @@
-<h1>Categories#new</h1>
-<p>Find me in app/views/categories/new.html.erb</p>
+<%= render "layouts/back", title: "NEW CATEGORY", link: "/categories" %>
+<section class="container bg vh-100 py-3">
+<%= render "layouts/flash" %>
+<%= render "form", category: @category %>
+</section>

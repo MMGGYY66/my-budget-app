@@ -82,7 +82,7 @@
 
 > Here you can visit my live demo :
 
-- [My Budget App]()
+- [My Budget App](https://my-budget-app-af081b7424b5.herokuapp.com/splash_screen)
 
 > Here you can see my presentation :
 
@@ -208,6 +208,6 @@ Here is the Original design idea by Gregoire Vella on Behance. 👉[Template](ht
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/MMGGYY66/my-budget-app/blob/dev/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

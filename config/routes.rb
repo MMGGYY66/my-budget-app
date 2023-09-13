@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "categories#index"
   get "/splash_screen", to: "users#splash"
+  get '/transactions', to: 'transactions#index', as: 'transactions'
+  # ...other routes...
 end

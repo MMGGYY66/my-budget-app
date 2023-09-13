@@ -1,8 +1,12 @@
 <nav class="navbar navbar-expand-lg bg-nav">
   <div class="container-fluid">
-   <span class="material-icons text-white">
+  <a class="text-white" href="/">
+
+   <span class="material-icons text-white" id="burger-button">
 menu
 </span>
+</a>
+
     <a class="navbar-brand text-white" href="/"><%=title%></a>
    
     <% if user_signed_in? %>

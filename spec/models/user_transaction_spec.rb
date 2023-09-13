@@ -6,7 +6,7 @@ RSpec.describe UserTransaction, type: :model do
     Category.create(
       name: 'home',
       icon: 'https://picsum.photos/300/300',
-      user_id: user    
+      user_id: user
     )
   end
   let(:user_transaction) do

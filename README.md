@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="budget-trans.png" alt="logo" width="140"  height="auto" />
+  <img src="budget-trans.png" alt="logo" width="240"  height="auto" />
   <br/>
   <h3><b>My Budget App</b></h3>
 </div>

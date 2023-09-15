@@ -47,7 +47,7 @@ gem 'bootsnap', require: false
 gem 'nokogiri', '~> 1.15.4'
 
 gem 'cancancan', '~> 3.5'
-gem 'devise', '~> 4.9', '>= 4.9.2'
+gem 'devise'
 gem 'faker'
 
 # Use Sass to process CSS

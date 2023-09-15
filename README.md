@@ -195,7 +195,8 @@ If you like this project, like it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Cindy Shin<br>
+** WE would like to thank to Microverse for giving this inspiring project**<br>
+
 Here is the Original design idea by Gregoire Vella on Behance. 👉[Template](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

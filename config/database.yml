@@ -16,26 +16,20 @@
 #
 default: &default
   adapter: postgresql
-  encoding: unicode
-  pool: <%= ENV.fetch("DB_POOL") { 5 } %>
-  username: postgres
-  password: Gg186988&
-  host: localhost  
-  port: 5433
-
+    encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
-  # pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
-  database: my_budget_app_development  
+  database: my_budget_app_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: my_budget_app
+  #username: YourAppName
 
   # The password associated with the postgres role (username).
   #password:
@@ -63,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: my_budget_app_test  
+  database: my_budget_app_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -82,7 +76,11 @@ test:
 #   production:
 #     url: <%= ENV["MY_APP_DATABASE_URL"] %>
 #
-
+# Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
+# for a full overview on how database connection configuration can be specified.
+#
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  database: my_budget_app_production
+  username: my_budget_app
+  password: <%= ENV["my_budget_app_PASSWORD"] %>

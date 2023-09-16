@@ -161,8 +161,6 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.4-x64-mingw-ucrt)
-      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
@@ -173,7 +171,6 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.4)
-    pg (1.5.4-x64-mingw-ucrt)
     popper_js (2.11.8)
     psych (5.1.0)
       stringio
@@ -293,8 +290,6 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2023.3)
-      tzinfo (>= 1.0.0)
     unicode-display_width (2.4.2)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -316,7 +311,6 @@ GEM
     zeitwerk (2.6.11)
 
 PLATFORMS
-  x64-mingw-ucrt
   x86_64-darwin-20
   x86_64-linux
 

@@ -5,7 +5,7 @@
     <%= render category, total:@totals[i] %>
 <% end %>
 
-<div class="d-flex justify-content-center mt-2">
-     <%= link_to "Add new Category", new_category_path, class: "btn btn-success" %>
+<div class="fixed-bottom w-100 d-flex align-items-center justify-content-center bg-success p-4 border-top border-light shadow-md">     
+     <%= link_to "Add new Category", new_category_path, class: "btn btn-outline-light btn-block text-uppercase" %>
 </div>
 </section>

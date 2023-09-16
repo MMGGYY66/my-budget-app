@@ -23,7 +23,7 @@ RSpec.describe 'Category', type: :system do
 
     it 'Test if Categories is loading correctly the body and have the "Add new Category" button' do
       visit '/categories'
-      expect(page).to have_content('Add new Category')
+      expect(page).to have_content('ADD NEW CATEGORY')
     end
 
     it 'Test if Categories is loading correctly the body and have the "Housing" category' do
@@ -33,7 +33,7 @@ RSpec.describe 'Category', type: :system do
 
     it 'Redirects from category index to add a new category' do
       visit '/categories/'
-      find('.btn', text: 'Add new Category').click
+      find('.btn', text: 'ADD NEW CATEGORY').click
       expect(page).to have_current_path('/categories/new', ignore_query: true)
     end
   end

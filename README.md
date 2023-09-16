@@ -1,10 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
+  <img src="budget-trans.png" alt="logo" width="240"  height="auto" />
   <br/>
-
   <h3><b>My Budget App</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -82,11 +81,11 @@
 
 > Here you can visit my live demo :
 
-- [My Budget App](https://my-budget-app-af081b7424b5.herokuapp.com/splash_screen)
+- [My Budget App](https://mohamed-budget-app.onrender.com/splash_screen)
 
 > Here you can see my presentation :
 
-- [My Budget App Presentation]()
+- [My Budget App Video Presentation](https://www.loom.com/share/Loom-Recorder-Settings-15-September-2023-c2192e9883c541988fc274cc61b248f2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,9 +159,6 @@ To run tests, run the following command:
 - Facebook: [facebook](https://www.facebook.com/MOHAMED.ELDIMARDASH/)
 - StackOverflow: [stackoverflow](https://stackoverflow.com/users/13605630/mohamed-gamil-eldimardash)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>.
@@ -188,8 +184,6 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project, like it.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
@@ -198,10 +192,6 @@ If you like this project, like it.
 ** WE would like to thank to Microverse for giving this inspiring project**<br>
 
 Here is the Original design idea by Gregoire Vella on Behance. 👉[Template](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

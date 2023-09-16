@@ -33,12 +33,12 @@ RSpec.describe 'UserTransaction', type: :system do
 
     it 'Test if transactions is loading correctly the body and have the "Add new Transaction" button' do
       visit "/categories/#{category.id}/user_transactions"
-      expect(page).to have_content('Add new Transaction')
+      expect(page).to have_content('ADD NEW TRANSACTION')
     end
 
     it 'Redirects from transactions index to add a new transaction' do
       visit "/categories/#{category.id}/user_transactions/"
-      find('.btn', text: 'Add new Transaction').click
+      find('.btn', text: 'ADD NEW TRANSACTION').click
       expect(page).to have_current_path("/categories/#{category.id}/user_transactions/new", ignore_query: true)
     end
   end

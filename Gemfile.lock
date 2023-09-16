@@ -317,7 +317,7 @@ DEPENDENCIES
   cancancan (~> 3.5)
   capybara
   debug
-  devise (~> 4.9, >= 4.9.2)
+  devise
   dotenv-rails
   faker
   importmap-rails

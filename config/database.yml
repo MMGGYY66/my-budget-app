@@ -18,13 +18,6 @@ production:
   username: my_budget_app
   password: <%= ENV["YOURAPPNAME_DATABASE_PASSWORD"] %>
 
-#   gem install pg
-#       Choose the win32 build.
-#       Install PostgreSQL and put its /bin directory on your path.
-#
-# Configure Using Gemfile
-# gem "pg"
-#
 # default: &default
 #   adapter: postgresql
 #     encoding: unicode
